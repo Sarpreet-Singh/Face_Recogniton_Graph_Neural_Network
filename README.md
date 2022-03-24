@@ -1,11 +1,3 @@
-
-Steps:
-1. Scan the faces that will be used for the training using 1_scan_face.py
-2. Create the DGL Dataset using 2_create_face_graphs
-3. Get the accuracy of the network by running 3_GNN.py
-
-Dependecies:
-
 Face Recogniton using Graph Neural Network
 =====================================
 The project scans 1 face for recogniton, and as many faces as the user wants to compare it against.
