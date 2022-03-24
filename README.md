@@ -28,7 +28,7 @@ Step 1: Scan Face
 ----------------------
 ```bash
 Use WebCam or insert path of pre-registred video and specify 2 output directories.
-1 for the face that needs to be recognized and the other for the faces used for comparison.
+1 directory the face that needs to be recognized and the other one the faces used for comparison.
 ```
 
 Step 2: Create dataset 
