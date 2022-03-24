@@ -27,13 +27,14 @@ pip install numpy dlib opencv-python torch dgl
 Step 1: Scan Face
 ----------------------
 ```bash
-Use WebCam or insert path of pre-registred video and specify output directory 
+Use WebCam or insert path of pre-registred video and specify 2 output directories.
+1 for the face that needs to be recognized and the other for the faces used for comparison.
 ```
 
 Step 2: Create dataset 
 ----------------------
 ```bash
-Specify the directories to create the DGLGraphs
+Specify the input directories to create the DGLGraphs
 ```
 
 Step 3: Training & Evaluation
